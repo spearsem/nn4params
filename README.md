@@ -62,7 +62,7 @@ in some way that matters to someone.
 But if we set up our loss function to optimize for a set of distributional
 parameters, we might instead say that the entire training set is solely for
 the purpose of learning the parameters. After that, we will use the conditional
-probability (with out learned parameters) if we want to guess what will
+probability (with our learned parameters) if we want to guess what will
 happen in a runtime scenario. Otherwise, we'll be content to have learned
 what some parameters are.
 

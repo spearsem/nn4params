@@ -61,7 +61,7 @@ def zero_loss(y_true, y_pred):
     where each scalar component is the target of the regression for that
     particular training sample. But since we are predicting a whole coefficient
     vector, y_pred will be an N-by-INPUT_SIZE matrix, each row containing the
-    predicting regression coefficients based on that row's sample of data.
+    predicted regression coefficients based on that row's sample of data.
 
     To produce a loss by comparing these, we would also need the original
     covariate matrix X, and to look at sum [ (y_true - X*y_pred)^{2} ]. But by
